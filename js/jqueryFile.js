@@ -1,0 +1,12 @@
+jQuery.noConflict();
+jQuery(document).ready(function($){
+    $('#accordion-toggle1').click(function(){
+        $('#tab-content1').toggle(300);
+    })
+    $('#accordion-toggle2').click(function(){
+        $('#tab-content2').toggle(300);
+    })
+    $('#accordion-toggle3').click(function(){
+        $('#tab-content3').toggle(300); 
+    })
+})
